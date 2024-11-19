@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Travel Suggestions</title>
+    <link rel="stylesheet" href="../CSS/greensug.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Green Travel Suggestions</h1>
+
+        <label for="travelDistance">Enter Daily Travel Distance (in km):</label>
+        <input type="number" id="travelDistance" placeholder="e.g., 10" />
+
+        <label for="currentMode">Current Mode of Transportation:</label>
+        <select id="currentMode">
+            <option value="car">Car</option>
+            <option value="bike">Bike</option>
+            <option value="public">Public Transport</option>
+            <option value="walk">Walking</option>
+        </select>
+
+        <button id="getSuggestions">Get Suggestions</button>
+        
+        <h2>Suggestions:</h2>
+        <div id="suggestions"></div>
+    </div>
+
+    <script src="../JS/greensug.js"></script>
+</body>
+</html>

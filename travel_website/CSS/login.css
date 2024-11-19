@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../bglanding.jpg);
+    /* background: transparent; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: cover;
+}
+.form1{
+    font-family: sans-serif;
+    background: transparent;
+    width: 500px;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    /* background-color: #fff; */
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.form1 .border .container h1{
+    font-size: 40px;
+    text-align: center;
+}
+/* .form1 .border .container .input-box .container-1{
+    padding-left: 550px;
+    padding-top: 20px;
+} */
+/* 
+.container{
+    padding-left: 600px;
+    padding-top: 60px;
+} */
+/* .container-1{
+    padding-left: 550px;
+    padding-top: 20px;
+} */
+.container-1{
+    margin-top: 23px;
+}
+.container-1 a{
+    text-decoration: none;
+    width: 550px;
+    height: 40px;
+}
+.container-1 button i{
+    margin-right: 130px;
+}
+.container-1 button{
+    height: 50px;
+    width: 410px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 100px;
+}
+/* .container-12{
+    padding-left: 550px;
+    padding-top: 20px;
+} */
+.container-12{
+    margin-top: 16px;
+}
+.container-12 a{
+    text-decoration: none;
+    width: 550px;
+    height: 40px;
+}
+.container-12 button{
+    height: 50px;
+    width: 410px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 100px;
+}
+.container-12 button i{
+    margin-right: 100px;
+}
+/* .container-13{
+    padding-left: 550px;
+    padding-top: 20px;
+} */
+.container-13{
+    margin-top: 16px;
+}
+.container-13 a{
+    text-decoration: none;
+    width: 550px;
+    height: 40px;
+}
+.container-13 button{
+    height: 50px;
+    width: 410px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 100px;
+}
+.container-13 button i{
+    margin-right: 140px;
+}
+.or{
+    margin-left: 180px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+/* .container-2{
+    padding-left: 550px;
+    padding-top: 30px;
+} */
+.container-2 input{
+    box-sizing: border-box;
+    width: 400px;
+    height: 40px;
+}
+.container-2 :placeholder-shown{
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.remember{
+    /* padding-left: 600px; */
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+/* .container-3{
+    padding-left: 550px;
+    padding-top: 30px;
+} */
+.container-3 input{
+    width: 400px;
+    height: 40px;
+}
+.container-3 :placeholder-shown{
+    text-align: center;
+    font-size: 25px;
+    border-radius: 100px;
+}
+.container-4{
+    /* padding-top: 30px;
+    padding-left: 650px; */
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 20px;
+}
